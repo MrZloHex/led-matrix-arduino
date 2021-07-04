@@ -3,9 +3,9 @@ pub struct Matrix<'a> {
 }
 
 impl Matrix<'_> {
-    pub fn new() -> Matrix<'static> {
+    pub fn new(serial: &str) -> Matrix<'static> {
         Matrix {
-            series: "1588AS"
+            series: serial
         }
     }
 
