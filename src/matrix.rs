@@ -1,15 +1,15 @@
-pub struct Matrix {
-    series: str
+pub struct Matrix<'a> {
+    series: &'a str
 }
 
-impl Matrix {
-    pub fn new() -> Matrix {
+impl Matrix<'_> {
+    pub fn new() -> Matrix<'static> {
         Matrix {
             series: "1588AS"
         }
     }
 
-    pub fn get_series(&self) -> str {
+    pub fn get_series(&self) -> &str {
         self.series
     }
 }
