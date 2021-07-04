@@ -4,3 +4,7 @@ Cargo.lock
 
 ### Git ###
 gt.sh
+
+
+### Examples ###
+examples/atmega2560/matrix1588AS/target/

@@ -1,0 +1,26 @@
+[package]
+name = "matrix1588AS"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+panic-halt = "0.2.0"
+
+[dependencies.arduino-mega2560]
+git = "https://github.com/rahix/avr-hal"
+rev = "885e8ec"
+
+# Configure the build for minimal size
+[profile.dev]
+panic = "abort"
+lto = true
+opt-level = "s"
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+debug = true
+lto = true
+opt-level = "s"
