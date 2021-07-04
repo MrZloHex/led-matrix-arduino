@@ -10,8 +10,8 @@ readme = "README.md"
 [dependencies]
 panic-halt = "0.2.0"
 embedded-hal = "0.2.5"
-arduino-mega2560 = "0.1.0"
-arduino-uno = "0.1.0"
+arduino-mega2560 = { version = "0.1.0", git = "https://github.com/rahix/avr-hal" }
+arduino-uno = { version = "0.1.0", git = "https://github.com/rahix/avr-hal" }
 
 # [dependencies.arduino-mega2560]
 # git = "https://github.com/rahix/avr-hal"
