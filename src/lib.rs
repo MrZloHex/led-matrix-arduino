@@ -2,7 +2,8 @@
 
 #![no_std]
 
-pub mod matrix;
+mod matrix;
+pub use matrix::Matrix;
 
 pub fn test(number: u8) -> u8 {
     number

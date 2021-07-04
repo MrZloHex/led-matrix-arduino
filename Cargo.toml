@@ -7,6 +7,14 @@ description = "A short description of my package"
 repository = "https://github.com/MrZloHex/led-matrix-arduino"
 readme = "README.md"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+panic-halt = "0.2.0"
+embedded-hal = "0.2.5"
+
+[dependencies.arduino-mega2560]
+git = "https://github.com/rahix/avr-hal"
+rev = "885e8ec"
+
+[dependencies.arduino-uno]
+git = "https://github.com/rahix/avr-hal"
+rev = "885e8ec"
