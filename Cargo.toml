@@ -14,7 +14,9 @@ embedded-hal = "0.2.5"
 [dependencies.arduino-mega2560]
 git = "https://github.com/rahix/avr-hal"
 rev = "885e8ec"
+version = "0.1.0"
 
 [dependencies.arduino-uno]
 git = "https://github.com/rahix/avr-hal"
 rev = "885e8ec"
+version = "0.1.0"
