@@ -2,7 +2,6 @@
 #![no_main]
 
 extern crate panic_halt;
-extern crate led-matrix-arduino;
 use led-matrix-arduino::Matrix;
 use arduino_mega2560::prelude::*;
 

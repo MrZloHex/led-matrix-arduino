@@ -7,10 +7,7 @@ edition = "2018"
 
 [dependencies]
 panic-halt = "0.2.0"
-
-[dependencies.led-matrix-arduino]
-git = "https://github.com/MrZloHex/led-matrix-arduino"
-rev = "cdce231"
+led-matrix-arduino = "0.1.0"
 
 [dependencies.arduino-mega2560]
 git = "https://github.com/rahix/avr-hal"

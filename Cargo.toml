@@ -2,6 +2,10 @@
 name = "led-matrix-arduino"
 version = "0.1.0"
 edition = "2018"
+license = "MIT"
+description = "A short description of my package"
+repository = "https://github.com/MrZloHex/led-matrix-arduino"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
